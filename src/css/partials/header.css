@@ -1,0 +1,58 @@
+.site-title {
+  display: flex;
+  align-items: center;
+}
+
+.site-title > span {
+  font-size: 1rem;
+  margin-left: 0.3em;
+}
+
+.logo {
+  height: 0;
+  width: 0;
+  margin: 0.5em;
+  display: inline-block;
+  border-top: 34px solid var(--bs-light-green);
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+}
+
+.global-header {
+  background-color: black;
+  display: flex;
+}
+
+.icon {
+  height: 1.5em;
+  width: 1.5em;
+  margin-right: 0.3em;
+  display: inline-block;
+}
+
+#NPS-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a.site-title {
+  text-decoration: none;
+}
+
+.global-header__right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+#global-nav-toggle {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-left: 10px;
+}
